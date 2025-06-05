@@ -1427,12 +1427,82 @@ questions_db = [
         "correct": "A"
     },
     {
-        "question": "Which of the following iptables keywords relate to statefulness",
+        "question": "What are the goals of an IDPS",
         "options": {
-            "A": "NEW",
-            "B": "SNAT",
-            "C": "DNAT",
-            "D": "MASQUERADE"
+            "A": "Monitoring an logging",
+            "B": "Response",
+            "C": "Accountability",
+            "D": "All"
+        },
+        "correct": "D"
+    },
+    {
+        "question": "Are IDPSs stateless",
+        "options": {
+            "A": "No",
+            "B": "Yes",
+            "C": "",
+            "D": ""
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some different aproaches IDPS takes",
+        "options": {
+            "A": "Traffic rate monitoring",
+            "B": "IP packet reassembly",
+            "C": "Protocol state tracking",
+            "D": "All"
+        },
+        "correct": "D"
+    },
+    {
+        "question": "What does NDR stand for",
+        "options": {
+            "A": "Network detection and response",
+            "B": "Network data recorder",
+            "C": "Network device registry",
+            "D": "All"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What does IDPS stand for",
+        "options": {
+            "A": "Intrusion detection and prevention system",
+            "B": "Intelligent data processing system",
+            "C": "Indexed database partitioning system",
+            "D": "Isotopic density preiction software"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What does EDR stand for",
+        "options": {
+            "A": "Endpoint detection and response",
+            "B": "Enhanced data replication",
+            "C": "Event driven response",
+            "D": "Enterprise data router"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What does HIDPS stand for",
+        "options": {
+            "A": "Host based intrusion detection and prevention system",
+            "B": "Hybrid intrusion detection and prevention system",
+            "C": "Hydrodynamic impact dissipation prediction system",
+            "D": "Insert Arman slander"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What is tripwire",
+        "options": {
+            "A": "It is a tool focused on file integrity monitoring (FIM) and security configuration management (SCM)",
+            "B": "It is responsible for setting firewall policies",
+            "C": "Arman sourdough",
+            "D": "A tool for testing tdijfj  jif arman uhh arman"
         },
         "correct": "A"
     },
