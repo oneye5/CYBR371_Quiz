@@ -1551,7 +1551,7 @@ questions_db = [
         "options": {
             "A": "None of these",
             "B": "ARman",
-            "C": "Honey initiates and interacts with servers",
+            "C": "Honeypot initiates and interacts with servers",
             "D": "Simulate client browser"
         },
         "correct": "A"
