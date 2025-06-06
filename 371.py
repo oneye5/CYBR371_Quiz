@@ -1787,16 +1787,6 @@ questions_db = [
     "correct": "C"
 },
 {
-    "question": "Which of the following is NOT a common type of network security attack?",
-    "options": {
-        "A": "ARP poisoning",
-        "B": "SQL injection",
-        "C": "DNS spoofing",
-        "D": "Man-in-the-middle"
-    },
-    "correct": "B"
-},
-{
     "question": "In TCP/IP networking, a SYN flood attack primarily exploits which part of the handshake?",
     "options": {
         "A": "Final ACK packet",
