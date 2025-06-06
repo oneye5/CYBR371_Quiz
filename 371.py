@@ -1424,7 +1424,7 @@ questions_db = [
             "C": "Both options",
             "D": "None of these"
         },
-        "correct": "A"
+        "correct": "C"
     },
     {
         "question": "What are the goals of an IDPS",
