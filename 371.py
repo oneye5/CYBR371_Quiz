@@ -1996,6 +1996,16 @@ questions_db = [
     },
     "correct": "C"
 },
+{
+    "question": "What does SSDP do?",
+    "options": {
+        "A": "Devices broadcast their presence to a specific multicast IP address",
+        "B": "SSDP is a secure tunneling protocol used to encrypt data between smart devices and cloud servers",
+        "C": "Guest operating system configuration",
+        "D": "SSDP is responsible for assigning IP addresses to IoT devices"
+    },
+    "correct": "A"
+},
 ]
 
 
