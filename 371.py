@@ -1506,6 +1506,206 @@ questions_db = [
         },
         "correct": "A"
     },
+    {
+        "question": "What is a honeypot",
+        "options": {
+            "A": "Honeyports are real or emulated vulnerable systems ready to be attacked",
+            "B": "A network optimisation tool that dynamically reroutes excess traffic to idle servers to reduce latency during peak usage hours",
+            "C": "Armans vm",
+            "D": "pooh"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some of the benefits of honeypots",
+        "options": {
+            "A": "After identification of attacker all data captured can be used in a legal procedure",
+            "B": "Improves overall network speed by offloading background traffic to decoy systems",
+            "C": "Reduces the need for endpoint protection software on real systems",
+            "D": "All of these are true"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some of the benefits of honeypots",
+        "options": {
+            "A": "Identification and classification of attacks",
+            "B": "detailed information of attack tools and strategies",
+            "C": "A honeypot deployed in a productive environment may lure an attacker away from the real production systems",
+            "D": "All"
+        },
+        "correct": "D"
+    },
+    {
+        "question": "Which of the following is true for a client honeypot",
+        "options": {
+            "A": "None of these",
+            "B": "arman",
+            "C": "Honeypot is accesable to the internet",
+            "D": "Simulate server-side services"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "Which of the following is true for a server honeypot",
+        "options": {
+            "A": "None of these",
+            "B": "ARman",
+            "C": "Honey initiates and interacts with servers",
+            "D": "Simulate client browser"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some attributes and actions assosiated with low interaction honeypots",
+        "options": {
+            "A": "Attacker activity is limited to the level of emulation by the honeypot",
+            "B": "Nothing is emulated. Real services applications and OS's",
+            "C": "Capture extensive information, but high risk and time intensive to maintain",
+            "D": "ar man"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some attributes and actions assosiated with high interaction honeypots",
+        "options": {
+            "A": "Nothing is emulated, real services applications and OS's",
+            "B": "Emulates services applications and OS's",
+            "C": "Low risk, easy to deploy / maintain but capture limited information",
+            "D": "Attacker activity is limited to the level of emulation by the honeypot"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some attributes and actions assosiated with production honeypots",
+        "options": {
+            "A": "All of these",
+            "B": "Mainly used by companies / corporations",
+            "C": "Placed inside production network with other servers",
+            "D": "Usually low interaction"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some attributes and actions assosiated with research honeypots",
+        "options": {
+            "A": "All of these",
+            "B": "Complex to maintain / deploy",
+            "C": "Capture extensive information",
+            "D": "Primarily used for research, military, or government organisations"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are some plausable locations for a honeypot",
+        "options": {
+            "A": "In front of the firewall",
+            "B": "DMZ",
+            "C": "Behind the firewall (Intranet)",
+            "D": "All of these are plausable"
+        },
+        "correct": "D"
+    },
+    {
+        "question": "What one of these are true regarding honeypots",
+        "options": {
+            "A": "None of these",
+            "B": "All of these",
+            "C": "The location of the honeypot does not matter as long as an attacker gets 'funneled' toward it",
+            "D": "They are identical to a vulnerable system"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What is a network telescope",
+        "options": {
+            "A": "A network telescope observes traffic targeting unused address space of the network",
+            "B": "A tool used to scan the internet for open ports and services",
+            "C": "A DNS query accelerator that uses idle subnets to boost response time",
+            "D": "A distributed system for redirecting excess network load during peak usage"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What are honeytokens",
+        "options": {
+            "A": "Honeytokens are honeypots but in the form of software or data, such as a fake account, a database entry, etc",
+            "B": "Honeytokens are honeypots but instead of existing as a single machine, it exists as a virtual machine contained inside of a production server",
+            "C": "Honeytokens is a third party tool, used by organisations as a one size fits all software solution to installing and maintaining honeypots",
+            "D": "None of these options are true"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "Are honeypots likely to produce false positives",
+        "options": {
+            "A": "No",
+            "B": "Yes",
+            "C": "",
+            "D": ""
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What is a bastion host",
+        "options": {
+            "A": "A device that sits on the network perimeter. Has hardened security.",
+            "B": "A bastion host is a load balancing server used to distribute traffic",
+            "C": "A bastion host is a hardened firewall appliance that automatically blocks suspicious IP addresses before they reach the internal network",
+            "D": "A device that acts as an internal monitoring node that inpects all outbound traffic for data exfiltration attempts."
+        },
+        "correct": "A"
+    },
+    {
+        "question": "On a linux system, where can we view important logs",
+        "options": {
+            "A": "/var/log/",
+            "B": "/shadow/log/syslog/",
+            "C": "/shadow/log",
+            "D": "/etc/bin/log/"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What command can you use to find out what process is using port 80 for example",
+        "options": {
+            "A": "netstat -an | grep ':80'",
+            "B": "netcat -p 80",
+            "C": "nmap -v -p 80",
+            "D": "tcpdump -in *.*.*.*:80"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "Is it acceptable to have users be able to log in as root",
+        "options": {
+            "A": "No, even system admins should not be able to directly log in as root, instead should use su",
+            "B": "Yes, only system admins however should be able to log in as root",
+            "C": "Yes, however only high level employees at the organisation should be able to",
+            "D": "No, because it does not violate prinsiple of least privilege"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "What is iptables",
+        "options": {
+            "A": "CLI utility for setting up and maintaining packet filtering rules",
+            "B": "It is a tool that makes use of the hardware firewall attatched to your system",
+            "C": "It is a table of IP's",
+            "D": "Arman, is it really beneficial to learn about a long deprecated and outdated tool? like, what are we doing here? what is the point of any of this? -1k I guess"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "",
+        "options": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+        },
+        "correct": "A"
+    },
 ]
 
 
