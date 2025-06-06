@@ -1747,16 +1747,6 @@ questions_db = [
     "correct": "D"
 },
 {
-    "question": "In the context of hardware security, what is a side-channel attack primarily exploiting?",
-    "options": {
-        "A": "Vulnerabilities in the operating system kernel",
-        "B": "Information leaked through power consumption or electromagnetic emissions",
-        "C": "Bugs in application-level code",
-        "D": "Weak encryption keys"
-    },
-    "correct": "B"
-},
-{
     "question": "Which of the following best describes a Hardware Security Module (HSM)?",
     "options": {
         "A": "A software library for encrypting data in the cloud",
