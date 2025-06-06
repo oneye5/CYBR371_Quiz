@@ -1736,6 +1736,296 @@ questions_db = [
         },
         "correct": "A"
     },
+{
+    "question": "Which of the following hardware security measures is designed to prevent unauthorized reading of data from memory chips?",
+    "options": {
+        "A": "Trusted Platform Module (TPM)",
+        "B": "Tamper-evident labels",
+        "C": "Electromagnetic shielding",
+        "D": "Memory encryption"
+    },
+    "correct": "D"
+},
+{
+    "question": "In the context of hardware security, what is a side-channel attack primarily exploiting?",
+    "options": {
+        "A": "Vulnerabilities in the operating system kernel",
+        "B": "Information leaked through power consumption or electromagnetic emissions",
+        "C": "Bugs in application-level code",
+        "D": "Weak encryption keys"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which of the following best describes a Hardware Security Module (HSM)?",
+    "options": {
+        "A": "A software library for encrypting data in the cloud",
+        "B": "A physical device that securely manages cryptographic keys",
+        "C": "A firewall appliance for industrial control systems",
+        "D": "An intrusion detection sensor for network traffic"
+    },
+    "correct": "B"
+},
+{
+    "question": "In Linux access control, which mechanism uses Access Control Lists (ACLs) to grant specific permissions to users and groups on a per-file basis?",
+    "options": {
+        "A": "Discretionary Access Control (DAC)",
+        "B": "Mandatory Access Control (MAC)",
+        "C": "Role-Based Access Control (RBAC)",
+        "D": "Attribute-Based Access Control (ABAC)"
+    },
+    "correct": "A"
+},
+{
+    "question": "Which Linux command can be used to view extended ACLs on a file?",
+    "options": {
+        "A": "ls -l",
+        "B": "getfacl",
+        "C": "chmod --list",
+        "D": "setfacl"
+    },
+    "correct": "B"
+},
+{
+    "question": "What file in Linux PAM (Pluggable Authentication Modules) defines the authentication rules for services?",
+    "options": {
+        "A": "/etc/pam_access.conf",
+        "B": "/etc/pam.conf",
+        "C": "/etc/pam.d/common-auth",
+        "D": "/etc/shadow"
+    },
+    "correct": "C"
+},
+{
+    "question": "Which of the following is NOT a common type of network security attack?",
+    "options": {
+        "A": "ARP poisoning",
+        "B": "SQL injection",
+        "C": "DNS spoofing",
+        "D": "Man-in-the-middle"
+    },
+    "correct": "B"
+},
+{
+    "question": "In TCP/IP networking, a SYN flood attack primarily exploits which part of the handshake?",
+    "options": {
+        "A": "Final ACK packet",
+        "B": "Initial SYN packet",
+        "C": "SYN-ACK retransmissions",
+        "D": "Window size negotiation"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which protocol is most commonly used to securely manage and access network devices remotely?",
+    "options": {
+        "A": "Telnet",
+        "B": "SSH",
+        "C": "FTP",
+        "D": "TFTP"
+    },
+    "correct": "B"
+},
+{
+    "question": "What is the primary purpose of a DMZ (Demilitarized Zone) in network security?",
+    "options": {
+        "A": "To encrypt all internal traffic",
+        "B": "To isolate and protect internal networks from untrusted external networks",
+        "C": "To prevent insider threats",
+        "D": "To manage user authentication centrally"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which of the following best describes Cross-Site Scripting (XSS)?",
+    "options": {
+        "A": "Injecting SQL commands into a database query",
+        "B": "Uploading a malicious executable to a web server",
+        "C": "Injecting client-side scripts into web pages viewed by other users",
+        "D": "Redirecting web traffic to a fraudulent site"
+    },
+    "correct": "C"
+},
+{
+    "question": "In web security, what does the acronym CSRF stand for?",
+    "options": {
+        "A": "Cross-Site Request Forgery",
+        "B": "Credential Session Replay Forgery",
+        "C": "Client-Side Resource Fixation",
+        "D": "Cross-Site Resource Flood"
+    },
+    "correct": "A"
+},
+{
+    "question": "Which HTTP header can help prevent Clickjacking attacks by restricting framing of content?",
+    "options": {
+        "A": "Content-Security-Policy",
+        "B": "X-Frame-Options",
+        "C": "Strict-Transport-Security",
+        "D": "X-XSS-Protection"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which iptables chain is used to filter incoming packets destined for the local host?",
+    "options": {
+        "A": "OUTPUT",
+        "B": "FORWARD",
+        "C": "INPUT",
+        "D": "PREROUTING"
+    },
+    "correct": "C"
+},
+{
+    "question": "Which iptables target will allow a packet to continue processing through subsequent rules?",
+    "options": {
+        "A": "DROP",
+        "B": "REJECT",
+        "C": "ACCEPT",
+        "D": "LOG"
+    },
+    "correct": "C"
+},
+{
+    "question": "What is the default policy of the FORWARD chain if not explicitly set?",
+    "options": {
+        "A": "ACCEPT",
+        "B": "DROP",
+        "C": "REJECT",
+        "D": "LOG"
+    },
+    "correct": "A"
+},
+{
+    "question": "Which of the following is NOT an example of an intrusion detection system?",
+    "options": {
+        "A": "Snort",
+        "B": "OSSEC",
+        "C": "Suricata",
+        "D": "iptables"
+    },
+    "correct": "D"
+},
+{
+    "question": "What type of IDS inspects network packets in real time and looks for known attack signatures?",
+    "options": {
+        "A": "Host-based IDS",
+        "B": "Signature-based IDS",
+        "C": "Anomaly-based IDS",
+        "D": "Behavior-based IDS"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which IDS component is responsible for comparing observed activity against stored signatures or heuristics?",
+    "options": {
+        "A": "Sensor",
+        "B": "Analyzer",
+        "C": "Database",
+        "D": "Controller"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which of the following is NOT a legitimate purpose of deploying a honeypot?",
+    "options": {
+        "A": "Attracting attackers to observe their tactics",
+        "B": "Consuming unnecessary resources on the network",
+        "C": "Gathering intelligence on new vulnerabilities",
+        "D": "Distracting attackers from production systems"
+    },
+    "correct": "B"
+},
+{
+    "question": "What is a network telescope primarily used for?",
+    "options": {
+        "A": "Detecting and analyzing unsolicited traffic to unused IP address space",
+        "B": "Improving wireless signal strength",
+        "C": "Encrypting DNS queries",
+        "D": "Filtering spam emails"
+    },
+    "correct": "A"
+},
+{
+    "question": "Which of the following best describes a bastion host?",
+    "options": {
+        "A": "A decoy server designed to trap attackers",
+        "B": "A hardened system placed at the network perimeter to resist attacks",
+        "C": "A virtual machine used for load balancing",
+        "D": "An internal server running only non-critical services"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which service is commonly run on a bastion host to allow secure administrative access?",
+    "options": {
+        "A": "FTP",
+        "B": "Telnet",
+        "C": "SSH",
+        "D": "HTTP"
+    },
+    "correct": "C"
+},
+{
+    "question": "In a Zero Trust architecture, which principle is emphasized?",
+    "options": {
+        "A": "All users within the corporate network are trusted by default",
+        "B": "Trust but verify all internal and external network traffic",
+        "C": "Only external network traffic requires authentication",
+        "D": "Use VPN as the sole security mechanism"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which technology is most closely associated with enforcing least-privilege access in a Zero Trust model?",
+    "options": {
+        "A": "Perimeter firewalls",
+        "B": "Network Address Translation (NAT)",
+        "C": "Microsegmentation",
+        "D": "DNS filtering"
+    },
+    "correct": "C"
+},
+{
+    "question": "Which of the following is a common privacy concern unique to IoT devices?",
+    "options": {
+        "A": "Weak passwords on administrative interfaces",
+        "B": "Interoperability challenges across manufacturers",
+        "C": "Excessive battery consumption",
+        "D": "Frequent firmware updates"
+    },
+    "correct": "B"
+},
+{
+    "question": "What is a primary challenge in securing IoT devices compared to traditional IT devices?",
+    "options": {
+        "A": "IoT devices always run Linux-based operating systems",
+        "B": "IoT devices often lack hardware-based security features",
+        "C": "IoT devices never connect to the cloud",
+        "D": "IoT devices cannot use encryption"
+    },
+    "correct": "B"
+},
+{
+    "question": "Which cloud security model is based on shared responsibility between cloud provider and customer?",
+    "options": {
+        "A": "NIST Cybersecurity Framework",
+        "B": "CIA Triad",
+        "C": "Shared Responsibility Model",
+        "D": "Zero Trust Model"
+    },
+    "correct": "C"
+},
+{
+    "question": "In Infrastructure as a Service (IaaS), which security control is the customer responsible for?",
+    "options": {
+        "A": "Physical data center security",
+        "B": "Hypervisor patching",
+        "C": "Guest operating system configuration",
+        "D": "Network hardware maintenance"
+    },
+    "correct": "C"
+},
 ]
 
 
