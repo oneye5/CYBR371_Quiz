@@ -1737,16 +1737,6 @@ questions_db = [
         "correct": "A"
     },
 {
-    "question": "Which of the following hardware security measures is designed to prevent unauthorized reading of data from memory chips?",
-    "options": {
-        "A": "Trusted Platform Module (TPM)",
-        "B": "Tamper-evident labels",
-        "C": "Electromagnetic shielding",
-        "D": "Memory encryption"
-    },
-    "correct": "D"
-},
-{
     "question": "Which of the following best describes a Hardware Security Module (HSM)?",
     "options": {
         "A": "A software library for encrypting data in the cloud",
