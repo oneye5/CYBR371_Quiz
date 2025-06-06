@@ -1697,12 +1697,42 @@ questions_db = [
         "correct": "A"
     },
     {
-        "question": "",
+        "question": "In a small software company, the development team is responsible for the entire life-cycle of an application, including writing code, testing it, and deploying it to production servers. This streamlined approach is adopted to speed up the release process. This is (most directly) a violation of which security principle?",
         "options": {
-            "A": "",
-            "B": "",
-            "C": "",
-            "D": ""
+            "A": "Segregation (separation) of Duties",
+            "B": "Least Common Mechanism",
+            "C": "Economy of Mechanism",
+            "D": "Complete Mediation"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "In information security, the probability of an undesired occurrence such as an event or a loss isreferred to as:",
+        "options": {
+            "A": "Risk",
+            "B": "Exploit",
+            "C": "Attack",
+            "D": "Vulnerability"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "When information is free from mistakes or errors and has the value that the end user expects, best represents which of the following property of extended CIA?",
+        "options": {
+            "A": "Accuracy",
+            "B": "Utility",
+            "C": "Availability",
+            "D": "Confidentiality"
+        },
+        "correct": "A"
+    },
+    {
+        "question": "Which of the following is not an IoT-specific privacy, legal and regulatory challenge?",
+        "options": {
+            "A": "Interoperability challenges as a result of attempting to integrate devices made by different manufacturers",
+            "B": "Collection of data about users in one jurisdiction and potentially transmitting it to another jurisdiction with different data protection laws for processing",
+            "C": "Data retention and destruction policies",
+            "D": "Legal liability for unintended uses"
         },
         "correct": "A"
     },
