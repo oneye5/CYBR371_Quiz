@@ -2006,6 +2006,66 @@ questions_db = [
     },
     "correct": "A"
 },
+{
+    "question": "How can we add a user to a group?",
+    "options": {
+        "A": "usermod -g poopgroup oneye",
+        "B": "groupadd poopgroup oneye",
+        "C": "groupadd poopgroup:oneye",
+        "D": "useradd oneye poopgroup"
+    },
+    "correct": "A"
+},
+{
+    "question": "How can we create a new user?",
+    "options": {
+        "A": "useradd oneye2",
+        "B": "groupadd oneye2:poopgroup",
+        "C": "chown oneye2",
+        "D": "setfacl -u oneye -g poopgroup -n new"
+    },
+    "correct": "A"
+},
+{
+    "question": "how can we change the ownership of a file?",
+    "options": {
+        "A": "chown oneye:poopgroup file.txt",
+        "B": "usermod -g poopgroup oneye -f file.txt",
+        "C": "useradd oneye file.txt",
+        "D": "Email Arman to do it, maybe some time the same year it might happen if you are lucky"
+    },
+    "correct": "A"
+},
+{
+    "question": "What is the difference between a network based ips and a host based ids",
+    "options": {
+        "A": "A network based ips exists at a key point in the network, such as a firewall, where a host based ips runs on individual hosts, such as workstations and servers",
+        "B": "A host based ips is a cloud service provided by a third party, that traffic is sent to before reaching applications. Where a network based IPS exists on at key parts of the network",
+        "C": "A network IPS analyses system calls, files and logs where a host based IPS analyses network packets",
+        "D": "None of these are true"
+    },
+    "correct": "A"
+},
+{
+    "question": "What layer does arp opperate on",
+    "options": {
+        "A": "Transport layer",
+        "B": "Application layer",
+        "C": "Data link layer",
+        "D": "Armans lair"
+    },
+    "correct": "A"
+},
+{
+    "question": "What does ARP spoofing entail",
+    "options": {
+        "A": "Changing the source address of the packet",
+        "B": "Changing the destination address of the packet",
+        "C": "Using ICMP to redirect the packet",
+        "D": "NAT"
+    },
+    "correct": "A"
+},
 ]
 
 
